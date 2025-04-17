@@ -6,8 +6,8 @@ function mudarVisual(cor, img){
     tenis.classList.add("troca-efeito")
 
     body.style.background = cor
-    
 
+    
     // contador de tempo
     setTimeout(() => {
         tenis.src = img
