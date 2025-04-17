@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+    /*ESSE É O QUE DÁ O ESPAÇAMENTO ENTRE OS BOTOES, QUANDO ESTIVEREM JUNTOS !! */
+
+}
+
+.link-header:hover {
+    border-bottom: 2px solid #665ae1;
+
+}
+
+.btn-header {
+    width: 130px;
+    height: 41px;
+    background: #665ae1;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 32px;
+    border-radius: 20.5px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+
+.btn-header:hover {
+    color: #ffffff;
+    background: black;
+
+}
+
+
+
+.img-logo {
+    width: 500px;
+    height: 450px;
+    margin-left: 10%;
+    display: inline-block;
+    /*aqui separa as duas caixas, olha o html*/
+
+}
+
+section {
+    display: inline-block;
+    margin: 0 0 0 150px;
+    /*aqui separa as duas caixas, olha o html*/
+
+}
+
+
+h1 {
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 122px;
+    /* ESSE É UM ESPAÇAMENTO DE BAIXO PARA CIMA, COMO UMA QUEBRA DE LINHA QUANTO MAIS FOR O NUMERO MAIOR SERÁ, QUANTO MENOR FOR MENOR SERÁ*/
+    color: #515151;
+    margin-left: 150px;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 71px;
+    /* ESSE É UM ESPAÇAMENTO DE BAIXO PARA CIMA, COMO UMA QUEBRA DE LINHA QUANTO MAIS FOR O NUMERO MAIOR SERÁ, QUANTO MENOR FOR MENOR SERÁ*/
+    color: #515151;
+    margin-left: 150px;
+    align-items: center;
+
+
+}
+
+.description-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* ESSE É UM ESPAÇAMENTO DE BAIXO PARA CIMA, COMO UMA QUEBRA DE LINHA.  QUANTO MAIS FOR O NUMERO MAIOR SERÁ, QUANTO MENOR FOR MENOR SERÁ */
+    color: #848484;
+    width: 700px;
+    /*ira delimitar a largura do texto, ficará curto, se o texto for grande*/
+    margin-left: 150px;
+    margin-top: 15px;
+    align-items: center;
+
+}
+
+.btn-main {
+    width: 239px;
+    height: 64px;
+    background: #adff00;
+    color: #000000;
+    font-weight: 700;
+    font-size: 26.05px;
+    margin-left: 130px;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 6px 6px rgba(120, 1, 255, 0.25));
+
+
+
+}
+
+
+
+.btn-main:hover {
+    color: #ffffff;
+    background: #665ae1;
+    filter: drop-shadow(0px 6px 6px rgba(1, 255, 1, 0.25));
+
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        display: none;
+    }
+
+    .img-logo {
+        position: static;
+        max-width: 90%;
+
+
+            section {
+                display: none;
+            }
+        h1 {
+            
+            position: relative;
+            bottom: 60px;
+            font-size: 30px;
+            margin-left: 65px;
+            line-height: 60px;
+        }
+
+        h3 {
+            position: relative;
+            bottom: 60px;
+            font-size: 30px;
+            margin-left: 65px;
+            line-height: 35.5px;
+        }
+
+        .description-title {
+           font-size: 90px;
+        }
+
+        .btn-main {
+            position: relative;
+            bottom: 60px;
+            width: 119.5px;
+            height: 32px;
+            font-size: 13.025px;
+            margin-left: 150px;
+
+        }
+    }
+}

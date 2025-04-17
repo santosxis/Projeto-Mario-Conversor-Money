@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- autocomplete="" 
+    name, 
+    username - Espera o nome de usuário,
+    email, 
+    street-address - Endereço, 
+    tel, 
+    given-name - primeiro nome,
+    country - Pais,
+    address-line1 - nome da rua,
+    address-line2 - Complemento,
+    additional-name - Sobrenome,
+    address-level1 - estado/ sp,
+    address-level2 - cidade,
+    address-level3 - Bairro,
+    family-name - ultimo nome,
+    cc-number - Número do cartão de crédito,
+    current-password - Espera a senha atual,
+    new-password - Espera uma nova senha,
+    one-time-code - Espera um código de uso único para verificação, etc.
+    
+    placeholder=""
+    disable / *readonly* - input desabilitado sem clique / somente leitura
+    value - valor do input, tipo nome fixo sem alterar
+    placeholder - é o texto que fica dentro do input  -->
+
+
+    <label>
+        Numero da residência:
+        <input 
+        type="text" 
+        autocomplete="house-number" 
+         placeholder="Digite o numero">
+    
+        </label>
+
+<br>
+<br>
+    
+
+<label>
+    Email:
+    <input 
+    type="email" 
+    autocomplete="email" 
+    autofocus 
+     placeholder="Digite seu email">
+
+    </label>
+
+<!--Parte 2 sobre input -->
+<br>
+<br>
+
+<input 
+    type="color">
+
+<br>
+<br>
+
+<input 
+    type="range" 
+    min="10" 
+    max="500" 
+    value="60">
+
+<br>
+<br>
+
+<label>
+    Senha:
+    <input 
+    type="password" 
+    autocomplete="new-password"
+    placeholder="Digite sua senha"
+    autofocus>
+
+</label>
+
+<br>
+<br>
+
+
+<label>
+   Você é lindo ?
+    <input 
+    type="checkbox"> 
+
+
+</label>
+
+<br>
+<br>
+
+
+<!--multiple -  QUER DIZER SELECIONAR VÁRIOS ARQUIVOS-->
+<!--accept -  QUER DIZER QUE SÓ ACEITA ARQUIVOS .JPEG, .MP4, IMAGE/*, VIDEO/*, AUDIO/*-->
+
+<input 
+    type="file" 
+    multiple
+    accept=".jpeg,.png">
+
+<br>
+<br>
+
+<input 
+    type="submit"> <!--BOTÃO DE ENVIAR ARQUIVO-->
+
+<br>
+<br>
+
+<label>
+     Número:
+    <input 
+    type="number"
+    placeholder="Digite seu número"
+    autofocus>
+
+</label>
+
+<br>
+<br>
+
+<input 
+    type="date">
+
+<br>
+<br>
+
+
+
+<h2>Qual a sua rede social favorita ?</h2>
+<br>
+
+<label for="facebook">Facebook</label>
+<input 
+    type="radio" 
+    id="facebook"
+    name="Gatão">
+    
+    <label for="youtube">Youtube</label>
+<input 
+    type="radio" 
+    id="youtube"
+    name="Gatão">
+    
+    <label for="instagram">Instagram</label>
+<input 
+    type="radio" 
+    id="instagram"
+    name="Gatão">
+
+
+</body>
+</html>

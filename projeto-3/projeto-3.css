@@ -1,0 +1,313 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+
+} */
+
+
+/*header {
+    margin: 30px 0px 0px 1070px;
+}
+
+.links {
+    /*     font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+    position: fixed;*/
+
+/*   position: relative;
+    font-size: 20px;
+    font-weight: 540;
+    margin: 20px 0px 0px 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #56557e;
+}
+
+
+.links:hover {
+    border-bottom: 2px solid rebeccapurple;
+}
+
+.links:nth-child(2):hover {
+    border-bottom: 2px solid #aeaebe;
+}
+
+.links:nth-child(2) {
+    color: #aeaebe;
+}
+
+.imagem-logo {
+    position: relative;
+    width: 350px;
+    left: 970px;
+    top: 60px;
+    height: 400px;
+    margin-top: 60px;
+
+}
+
+section {
+    
+
+/*    position: relative;
+    height: 330px;
+    width: 530px;
+    bottom: 175px;
+    left: 250px;
+    top: -220px;
+
+}
+
+.title-main {
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: 550;
+    width: 300px;
+    color: #5d5d7d;
+    line-height: 45px;
+    margin-bottom: px;
+
+}
+
+.description {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 29.5px;
+    font-weight: 540;
+    width: 440px;
+    color: #9e9eb1;
+}
+
+.btn-main {
+    font-size: 15.5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 199px;
+    height: 50px;
+    background: #9499ea;
+    border: none;
+    color: #ffffff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-main:hover {
+    background: black;
+    color: white;
+
+}
+    */
+
+/* cheats*/
+
+/* width e heihght, altera o tamanho da caixa. FUNDAMENTAL!*/
+
+/*AO INICIA UM CSS, NA DIV PRINCIPAL  /* 
+ /*
+    DIV class="principal"
+        div class="caixa-1"
+        div class="caixa-2"
+
+        coloque: 
+        .principal { 
+        height; 100vh
+        width: 100vw;
+    
+     }
+
+    caixa-1 {
+        display: inline-block
+        width: 60%
+    }
+
+     caixa-2 {
+        display: inline-block
+    }*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #5d5d7d;
+
+
+
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.container-one {
+    display: inline-block;
+    width: 60%;
+    margin-top: 370px;
+    padding-left: 12.5%;
+
+}
+
+.container-two {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+    /*POSICIONA A CAIXA*/
+}
+
+.container-two img {
+    position: relative;
+    /*POSICIONA A IMG*/
+    top: 200px;
+    right: 130px;
+
+}
+
+.title-main {
+    font-size: 70px;
+    line-height: 80px;
+    width: 500px;
+    /*  margin: 15px 0px; */
+
+    /*  margin-left: 20px; */
+
+}
+
+.description {
+    font-size: 28px;
+    width: 560px;
+
+    line-height: 48px;
+    opacity: 0.6;
+    margin: 15px 0px;
+
+}
+
+.btn-main {
+    width: 199px;
+    height: 50px;
+    background: #9499ea;
+    text-align: center;
+    font-size: 15.5px;
+    line-height: 36px;
+    color: #ffffff;
+    box-shadow: 0px 10px 24px rgba(143, 153, 234, 0.0979959);
+    font-size: 15.5px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.btn-main:hover {
+    opacity: 0.8;
+
+}
+
+.btn-main:active {
+    opacity: 0.5;
+
+}
+
+.links {
+    font-size: 28px;
+    line-height: 41px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    margin-right: 41px;
+}
+
+
+.links:hover {
+    border-bottom: 2px solid rebeccapurple;
+}
+
+.links:nth-child(2):hover {
+    border-bottom: 2px solid #aeaebe;
+}
+
+.links:nth-child(2) {
+    color: #aeaebe;
+}
+
+header {
+    margin: 24px 0 0 54px;
+}
+
+
+
+
+@media screen and (max-width: 1050px) {
+    .container-one {
+        width: 100%;
+        height: 45%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-two {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+
+    }
+
+
+    .container-two img {
+        position: static;
+        max-width: 90%;
+
+    }
+
+    header {
+        display: none;
+    }
+
+
+    .title-main {
+        font-size: 35px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 80px;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 20px;
+        width: auto;
+        line-height: 20px;
+        opacity: 0.6;
+        text-align: center;
+        margin: 15px 40px;
+
+    }
+
+
+    .btn-main {
+        width: 150px;
+        height: 50px;
+        line-height: 15px;
+        font-size: 15.5px;
+        display: block;
+        margin: auto;
+
+    }
+    
+
+}
