@@ -1,5 +1,5 @@
 *{
-    box-sizing: content-box; /* É A MELHOR OPÇÃO DE USO DO QUE O CONTENT-BOX*/
+    box-sizing: border-box; /* É A MELHOR OPÇÃO DE USO DO QUE O CONTENT-BOX*/
 
 }
 
