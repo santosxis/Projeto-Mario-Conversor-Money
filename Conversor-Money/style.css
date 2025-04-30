@@ -1,0 +1,154 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: "Montserrat", sans-serif;
+
+    outline: none;
+
+}
+
+body {
+    background-color: #8C52FE;
+}
+
+.logo-img {
+    width: 200px;
+
+    display: block;
+
+    margin: 20px auto;
+}
+
+main {
+ 
+    width: 375px;
+
+    background: #f3f3f3;
+
+    border-radius: 20px;
+
+    margin: 0 auto 40px;
+
+    padding: 44px 24px 23px;
+
+
+
+}
+
+label {
+    color: gray;
+
+    font-weight: 500;
+
+    font-size: 15px;
+}
+
+select, input {
+    background: #ffffff;
+
+    border: 1px solid rebeccapurple;
+
+    border-radius: 5px;
+
+    height: 48px;
+
+    width: 100%;
+
+    margin-bottom: 24px;
+
+    padding-left: 15px;
+
+    font-weight: 500;
+
+    font-size: 15px;
+
+    color: rgb(70, 69, 69);
+
+    cursor: pointer;
+}
+
+.convert-button {
+    background-color: rgb(132, 71, 245);
+
+    width: 100%;
+
+    height: 48px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    color: aliceblue;
+
+    font-weight: 600;
+
+    font-size: 15px;
+
+}
+
+.convert-button:hover {
+    cursor: pointer;
+
+    opacity: .8;
+}
+
+.convert-button:active {
+    opacity: .6;
+}
+
+section {
+    border: 1px solid #8C52FE;
+
+    border-radius: 20px;
+
+    padding: 15px;
+
+    margin-top: 36px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+
+}
+
+.arrows {
+    width: 40px;
+    
+    height: 60px;
+
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 5px;
+}
+
+.currency {
+    color: rgb(70, 69, 69);
+
+    font-weight: 500;
+
+    font-size: 15px;
+}
+
+.currency-value-to-convert, .currency-value {
+    color: gray;
+
+    font-weight: 600;
+
+    font-size: 18px;
+}
