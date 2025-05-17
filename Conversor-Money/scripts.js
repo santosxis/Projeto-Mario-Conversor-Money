@@ -313,21 +313,21 @@ function changeCurrency() {
 
     if (currencySelect.value == 'dolar') {
         currencyName.innerHTML = 'Dólar Americano'
-        currencyImage.src = '/assets/dolar.png'
+        currencyImage.src = '/Conversor-Money/assets/dolar.png'
     }
 
     if (currencySelect.value == 'euro') {
         currencyName.innerHTML = 'Euro'
-        currencyImage.src = '/assets/Euro.png'
+        currencyImage.src = '/Conversor-Money/assets/Euro.png'
     }
     if (currencySelect.value == 'real') {
         currencyName.innerHTML = 'Real Brasileiro'
-        currencyImage.src = '/assets/real.png'
+        currencyImage.src = '/Conversor-Money/assets/real.png'
     }
 
     if (currencySelect.value == 'bitcoin') {
         currencyName.innerHTML = 'Bitcoin'
-        currencyImage.src = '/assets/bitcoin 1.png'
+        currencyImage.src = '/Conversor-Money/assets/bitcoin 1.png'
     }
 
 
